@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 600px;
+    max-height: 600px;
+    border: 2px red solid;
+}
+
+.flexB {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: auto;
+    border: 2px green solid;
+}
+
+h1 {
+    border: 2px blue solid;
+}
+
+.column {
+    flex: 1;
+}
+
+form {
+    border: solid 2px yellow;
+}
